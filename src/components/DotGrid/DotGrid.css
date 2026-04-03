@@ -1,0 +1,18 @@
+.dot-grid {
+  display: grid;
+  padding: 1rem;
+}
+
+.dot {
+  border-radius: 50%;
+  background: #333;
+  transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dot-grid:hover .dot {
+  opacity: 0.5;
+}
+
+.dot-grid:hover .dot:nth-child(-n + 25) {
+  opacity: 1;
+}
