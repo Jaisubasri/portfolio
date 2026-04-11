@@ -3,8 +3,6 @@ import arrow from "../../assets/arrow.svg";
 import { useState } from "react";
 
 const Contact = () => {
-    const topics = ["Mobile App", "Website Design", "Branding", "Webflow development", "App design", "Graphic design", "Wordpress"];
-    const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -13,14 +11,6 @@ const Contact = () => {
     });
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle");
-
-    const toggleTopic = (topic: string) => {
-        setSelectedTopics(prev =>
-            prev.includes(topic)
-                ? prev.filter(t => t !== topic)
-                : [...prev, topic]
-        );
-    };
 
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const { name, value } = e.target;
