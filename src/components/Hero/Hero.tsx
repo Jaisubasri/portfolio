@@ -1,5 +1,5 @@
 import "./hero.css";
-import profile from "../../assets/profile.png";
+import profile from "../../assets/profilepic.png";
 import resume from "../../assets/Harinethesh_Resume.pdf";
 import { FaCheck } from "react-icons/fa6";
 import HeroFooter from "./HeroFooter";
@@ -27,28 +27,28 @@ const Hero = () => {
             <section className="hero">
                 <div className="hero-left">
                     <h1 style={{ marginBottom: "1rem", color: "#2D2F37" }}>
-                        Hello! I’m <span style={{ color: "#2D2F37" }}>Harinethesh</span>
+                        Hello! I’m <span style={{ color: "#2D2F37" }}>Jaisubasri</span>
                     </h1>
                     <div className="job-title">
                         <div className="subtitle-line"></div>
-                        <p className="subtitle">Software Developer</p>
+                        <p className="subtitle">Data Science Explorer</p>
                     </div>
                     <p className="hero-description">
-                        Hello! I’m Harinethesh — <b>a software engineer, system thinker, and builder of clean, scalable solutions</b>, driven by logic and curiosity.
+                        Hello! I’m Jaisubasri — <b>a Data & AI consultant, junior researcher, and builder of clean, scalable solutions</b>, driven by logic and curiosity.
                     </p>
 
                     <ul className="feature-list">
                         <div style={{ display: "flex", alignItems: "center", gap: "10px", paddingBottom: "0.5rem" }}>
                             <FaCheck style={{ fontSize: "15px" }} />
-                            <li>Building scalable web apps with React & APIs</li>
+                            <li>Transforming data into actionable insights with SQL & Python</li>
                         </div>
                         <div style={{ display: "flex", alignItems: "center", gap: "10px", paddingBottom: "0.5rem" }}>
                             <FaCheck style={{ fontSize: "15px" }} />
-                            <li>Writing clean, reusable, high-performance code</li>
+                            <li>Building clear dashboards and data visualizations</li>
                         </div>
                         <div style={{ display: "flex", alignItems: "center", gap: "10px", paddingBottom: "0.5rem" }}>
                             <FaCheck style={{ fontSize: "15px" }} />
-                            <li>Strong in problem-solving and system design</li>
+                            <li>Expert in statistical analysis and business intelligence</li>
                         </div>
                     </ul>
 
@@ -83,16 +83,16 @@ const Hero = () => {
                         </svg>
                     </div>
 
+                    <svg className="arc" width="70" height="130" viewBox="0 0 70 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M 20 8 C 55 25, 62 65, 55 90 C 48 112, 30 122, 18 128" stroke="#a0a098" strokeWidth="3.5" strokeLinecap="round" fill="none" />
+                    </svg>
+
                     <div className="portrait">
-                        <img src={profile} alt="profile" />
+                        <img src={profile} alt="profile" style={{height:"600px", width:"600px",}} />
                     </div>
                     <div className="hero-right-designs">
                         <div className="plus"></div>
                         <div className="dot-top"></div>
-                        <div className="dot-1"></div>
-                        <svg className="arc" width="70" height="130" viewBox="0 0 70 130" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M 20 8 C 55 25, 62 65, 55 90 C 48 112, 30 122, 18 128" stroke="#a0a098" strokeWidth="3.5" strokeLinecap="round" fill="none" />
-                        </svg>
                         <div className="dot-bottom"></div>
                     </div>
                 </div>

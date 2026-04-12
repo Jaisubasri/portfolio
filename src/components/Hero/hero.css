@@ -22,6 +22,9 @@
 .portrait{
     width: 100%;
     height: auto;
+    padding-left: 10%;
+    position: relative;
+    z-index: 1;
 }
 
 .hero::before {
@@ -227,7 +230,7 @@
 .dot-1 {
     position: absolute;
     top: 75%;
-    left: 80%;
+    left: 85%;
     width: 5px;
     height: 5px;
     border-radius: 50%;
@@ -247,8 +250,9 @@
 .arc {
     position: absolute;
     top: 45%;
-    left: 80%;
+    left: 85%;
     transform: rotate(25deg);
+    z-index: 0;
 }
 
 .dot-bottom {
