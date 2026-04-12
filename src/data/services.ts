@@ -4,20 +4,20 @@ import ineract from "../assets/interactive.png";
 
 export const services = [
     { 
-        title: "FRONTEND DEVELOPMENT", 
-        category: "Building responsive, high-performance UIs with React.", 
+        title: "DATA ANALYSIS & INSIGHTS", 
+        category: "Extracting actionable insights from complex datasets using SQL and Python.", 
         img: pennib,
         style: { width: "50px", height: "55px", transform: "rotate(-45deg)" }
     },
     { 
-        title: "BACKEND SYSTEMS & API's", 
-        category: "Designing scalable APIs and robust backend services using Java.", 
+        title: "DASHBOARD & VISUALIZATION", 
+        category: "Creating interactive dashboards that tell compelling data stories.", 
         img: compbrush,
         style: { width: "50px", height: "55px" }
     },
     { 
-        title: "AI & INTELLIGENT SYSTEMS", 
-        category: "Exploring AI, ML, and blockchain to build smarter systems.", 
+        title: "STATISTICAL MODELING & BI", 
+        category: "Building predictive models and business intelligence solutions for data-driven decisions.", 
         img: ineract,
         style: { width: "50px", height: "55px" }
     },

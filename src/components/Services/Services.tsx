@@ -17,7 +17,7 @@ const Services = () => {
                         <p style={{ fontSize: "50px", fontWeight: "700", color: "#2D2F37" }}>OFFERING</p>
                     </div>
                     <div>
-                        <p className="section-header-description">I design and develop scalable, high-performance applications with a strong focus on clean code, seamless user experience, and real-world impact.</p>
+                        <p className="section-header-description">I transform data into actionable insights with a strong focus on clean analysis, meaningful visualizations, and real-world business impact.</p>
                     </div>
                     <button className="primary"><p style={{ fontSize: "20px", color: "#ffffff" }}>All Service</p></button>
                 </div>

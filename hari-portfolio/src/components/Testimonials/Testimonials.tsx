@@ -14,12 +14,12 @@ const Testimonials = () => {
             </div>
             <section >
                 <p className="quote">
-                    “A highly reliable full-stack developer who builds scalable, high-performance applications with a strong focus on clean architecture and seamless user experience.”
+                    "An exceptional data analyst who transforms complex datasets into actionable insights with meticulous attention to detail, powerful visualizations, and profound business impact."
                 </p>
                 <div className="feedback-member-section">
                     <div>
-                        <h4>Mayura Chimkode</h4>
-                        <p className="sub">Product Manager, OpenText</p>
+                        <h4>Arjeet Samal</h4>
+                        <p className="sub">Professor, IMSc</p>
                         <img src={underline} style={{paddingTop:"0.8rem"}} alt="underline" /  >
                     </div>
                     <div className="image-stack">
@@ -28,8 +28,8 @@ const Testimonials = () => {
                 </div>
                 <div className="feedback-member-section">
                     <div>
-                        <h4>Shanmugasundaram Palaniswamy</h4>
-                        <p className="sub">Lead Engineer, OpenText</p>
+                        <h4>Ankit Jain</h4>
+                        <p className="sub">Mentor, Cleo Software Solutions</p>
                         <img src={underline} style={{ paddingTop: "0.8rem" }} alt="underline" /  >
                     </div>
                     <div className="image-stack">

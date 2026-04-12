@@ -6,19 +6,19 @@ const HeroFooter = () => {
         <div className="hero-footer">
             <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
                 <HiSparkles />
-                <h1>Web Design</h1>
+                <h1>Data Analysis</h1>
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
                 <HiSparkles />
-                <h1>Developer</h1>
+                <h1>AI & ML </h1>
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
                 <HiSparkles />
-                <h1>API Integration</h1>
+                <h1>Dashboard Design</h1>
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
                 <HiSparkles />
-                <h1>Web Flow</h1>
+                <h1>Business Intelligence</h1>
             </div>
         </div>
     );
