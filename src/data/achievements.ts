@@ -1,20 +1,26 @@
 export const achievements = [
     {
-        title: "Smart India Hackathon Finalist",
-        issuer: "Ministry of Education, Government of India",
-        date: "2023",
-        description: "Propsed the Idea and Prototype of a Blockchain-based legal document e-vault",
+        title: "Achiever Award",
+        issuer: "PSG Institute of Technology",
+        date: "2026",
+        description: "Achiever award of batch 2021-2026 in Data Science.",
     },
     {
-        title: "VOIS Hackathon",
-        issuer: "Vodafone Idea Limited",
-        date: "2023",
-        description: "Proposed an innovative solution on IoT-based energy management along with a functional prototype",
+        title: "Winner of Data Premier League Hackathon",
+        issuer: "PSG Institute of Technology",
+        date: "2025",
+        description: "1st prize in DATA PREMIER LEAGUE hackathon conducted by PSG Institute.",
     },
     {
-        title: "College Hackathon Winner",
-        issuer: "SKCET",
-        date: "2022",
-        description: "Won first place in college-level hackathon for innovative web application development.",
+        title: "Ranked 4th place in Science Olympiad",
+        issuer: "Indian Talent & Conquest IQ",
+        date: "2018",
+        description: "Ranked 4th place in Science Olympiad conducted at national level by Indian Talent.",
+    },
+    {
+        title: "Guinness World Record Holder",
+        issuer: "Asia Book of Record",
+        date: "2015 & 2017",
+        description: "Participated in the Guinness World Record and won Asia Book of Record in Bharatanatyam.",
     }
 ];

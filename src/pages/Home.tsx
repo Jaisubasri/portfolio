@@ -8,6 +8,7 @@ import Testimonials from "../components/Testimonials/Testimonials";
 import Stats from "../components/Stats/Stats";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
+import Paper from "../components/Papers/Paper";
 
 const Home = () => {
     return (
@@ -24,6 +25,9 @@ const Home = () => {
             </section>
             <section id="case-study">
                 <CaseStudies />
+            </section>
+            <section id="papers">
+                <Paper />
             </section>
             <section id="testimonials">
                 <Testimonials />

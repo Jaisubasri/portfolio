@@ -1,6 +1,6 @@
 import "./hero.css";
 import profile from "../../assets/profilepic.png";
-import resume from "../../assets/Harinethesh_Resume.pdf";
+import resume from "../../assets/21PD14_K.Jaisubasri_portfolio.pdf";
 import { FaCheck } from "react-icons/fa6";
 import HeroFooter from "./HeroFooter";
 import { MdArrowDownward } from "react-icons/md";
@@ -9,7 +9,7 @@ const Hero = () => {
     const downloadResume = () => {
         const link = document.createElement("a");
         link.href = resume;
-        link.download = "Harinethesh_Resume.pdf";
+        link.download = "21PD14_K.Jaisubasri_portfolio.pdf";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

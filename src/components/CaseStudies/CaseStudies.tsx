@@ -10,9 +10,9 @@ const CaseStudies = () => {
                 <div className="header-content">
                     <h2 className="section-title">CASE STUDY</h2>
                     <p className="section-description">
-                        A selection of projects where I've designed and developed scalable, 
-                        high-performance applications, focusing on clean architecture, 
-                        performance, and real-world impact.
+                        A selection of data analysis projects where I've uncovered insights, 
+                        built interactive dashboards, and leveraged statistical methods to drive 
+                        informed business decisions.
                     </p>
                 </div>
             </div>

@@ -6,22 +6,22 @@ const Footer = () => {
   const socialLinks = [
     {
       name: "Gmail",
-      url: "mailto:hnethesh@gmail.com",
+      url: "mailto:jaisu17k@gmail.com",
       Icon: MdMail
     },
     {
       name: "GitHub",
-      url: "https://github.com/BlackDeViL1906",
+      url: "https://github.com/Jaisubasri",
       Icon: FaGithub
     },
     {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/harinethesh/",
+      url: "https://www.linkedin.com/in/jaisubasri-karthikeyan-648a81259/",
       Icon: FaLinkedin
     },
     {
       name: "Instagram",
-      url: "https://www.instagram.com/_hx_nxtxh._/",
+      url: "https://www.instagram.com/jaisu_karthik/",
       Icon: FaInstagram
     }
   ];
