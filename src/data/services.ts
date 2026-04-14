@@ -18,7 +18,7 @@ export const services = [
         description: " Ability to design and develop interactive dashboards and reporting solutions using Power BI, Power Apps, and SQL for real-time data monitoring. Expertise in creating intuitive visualizations and enabling data-driven insights for better decision-making  .",
     },
     { 
-        title: "COMPUTATIONAL RESEARCH & DATA SCIENCE", 
+        title: "COMPUTATIONAL RESEARCH & AI", 
         category: "Building predictive models and business intelligence solutions for data-driven decisions.",
         img: ineract,
         description: "Ability to analyze large-scale datasets and build predictive machine learning models for complex problems. Strong skills in data preprocessing, feature engineering, and handling imbalanced data for improved model performance.",
