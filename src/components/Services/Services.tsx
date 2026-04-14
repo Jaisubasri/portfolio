@@ -24,12 +24,12 @@ const Services = () => {
             </div>
             <div className="section-content">
                 <div className="section-content-left">
-                    <div style={{alignItems:"center", justifyContent:"center"}}>
+                    <div style={{ alignItems: "center", justifyContent: "center" }}>
                         <div className="arrow-background">
                             <FaArrowLeft style={{ fontSize: "25px", color: "#ffffff" }} />
                         </div>
                     </div>
-                    <div style={{ height: "1.3px",minWidth:"70px", backgroundColor:"#2D2F37"}}></div>
+                    <div style={{ height: "1.3px", minWidth: "70px", backgroundColor: "#2D2F37" }}></div>
                     <div>
                         <p>SCROLL DOWN</p>
                     </div>
@@ -37,13 +37,25 @@ const Services = () => {
                 <div>
                     <div className="service-grid">
                         {services.map((item, index) => (
-                            <div key={index} className={`card ${index === 0 ? "active" : ""}`}>
-                                <img src={item.img} alt="Service Icon" style={item.style} />
-                                <h3 style={{ paddingTop: "2.5rem", fontSize: "25px", fontFamily:"Bahnschrift Light"}}>{item.title}</h3>
-                                <p style={{paddingTop:"1rem"}}>{item.category}</p>
-                                <div style={{display:"flex", alignItems:"center", paddingTop:"3rem"}}>
-                                    <p>READ MORE</p>
-                                    <FaArrowRight style={{paddingTop:"0.5rem",paddingLeft:"0.5rem", fontSize:"23px"}} />
+                            <div
+                                key={index}
+                                className="card-flip-container"
+                            >
+                                <div className="card-flip-wrapper">
+                                    {/* Front of card */}
+                                    <div className={`card ${index === 0 ? "active" : ""}`}>
+                                        <img src={item.img} alt="Service Icon" style={item.style} />
+                                        <h3 style={{ paddingTop: "2.5rem", fontSize: "25px", fontFamily: "Bahnschrift Light" }}>{item.title}</h3>
+                                        <p style={{ paddingTop: "1rem" }}>{item.category}</p>
+                                        <div style={{ display: "flex", alignItems: "center", paddingTop: "3rem" }}>
+                                            <p>HOVER TO FLIP</p>
+                                            <FaArrowRight style={{ paddingTop: "0.5rem", paddingLeft: "0.5rem", fontSize: "23px" }} />
+                                        </div>
+                                    </div>
+                                    {/* Back of card */}
+                                    <div className={`card card-back ${index === 0 ? "active" : ""}`}>
+                                        <p style={{ fontSize: "15px", lineHeight: "1.8" }}>{item.description}</p>
+                                    </div>
                                 </div>
                             </div>
                         ))}
