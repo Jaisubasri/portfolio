@@ -17,7 +17,7 @@ const Paper = () => {
 
             <div className="exp-list">
                 {experience.map((item, index) => (
-                    <div key={index} className="exp-card" style={item.style}>
+                    <div key={index} className="exp-card">
                         <div className="exp-left">
                             <span className="index" style={item.indexstyle}>{index + 1}</span>
                             <div>
@@ -26,7 +26,7 @@ const Paper = () => {
                             </div>
                         </div>
                         <div style={{ display: "flex" }}>
-                            <div className="divider" style={item.style1}></div>
+                            <div className="divider"></div>
                             <a href={item.link} className="paper-link">
                             <span className="duration" style={{ fontWeight: "500" }}>Details - Click here</span>
                             </a>
